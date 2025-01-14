@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@langchain/community": "^0.3.24",
+    "@langchain/core": "^0.3.30",
+    "@langchain/langgraph": "^0.2.39",
+    "@langchain/openai": "^0.3.17",
+    "init": "^0.1.2",
+    "nodemon": "^3.1.9",
+    "tslab": "^1.0.22",
+    "zod": "^3.24.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
